@@ -1,0 +1,9 @@
+[project]
+name = "credit-scorecard"
+version = "0.1.0"
+description = "Credit-risk scorecard with WoE binning, drift monitoring and reject inference"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
